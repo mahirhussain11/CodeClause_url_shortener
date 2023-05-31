@@ -1,0 +1,95 @@
+* {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+body {
+  background-color: #004ec0;
+  background-image: radial-gradient(circle at 20% 50%, #5e6dd9, transparent),
+    radial-gradient(circle at 80% 50%, #b599f7, transparent),
+    linear-gradient(to bottom, #fbcbff, #fffbff);
+
+  background-size: cover;
+}
+.main {
+  position: relative;
+  background-color: #e893cf;
+  height: 500px;
+  width: 500px;
+  top: 50%;
+  left: 35%;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+#longurl {
+  position: relative;
+  top: 50%;
+  left: 10%;
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: large;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+}
+#shorten {
+  position: relative;
+  top: 50%;
+  left: 13%;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: small;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  color: purple;
+}
+#shorten:hover {
+  background-color: skyblue;
+}
+#shorturl {
+  position: relative;
+  top: 50%;
+  left: 10%;
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: large;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  margin-top: 5%;
+}
+#copy {
+  position: relative;
+  top: 50%;
+  left: 13%;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: small;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  color: purple;
+}
+#copy:hover {
+  background-color: skyblue;
+}
+.main p {
+  position: relative;
+  top: 30%;
+  left: 20%;
+  height: 60px;
+  width: 400px;
+  font-size: 50px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
